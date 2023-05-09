@@ -29,7 +29,7 @@ class PembelianStok extends Migration
             'id_pegawai' => [
                 'type'           => 'VARCHAR',
                 'constraint'     => 3,
-            ],
+            ]
             
         ]);
         $this->forge->addPrimaryKey('id_pembelian_stok');
