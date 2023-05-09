@@ -37,6 +37,6 @@ class Users extends Migration
 
     public function down()
     {
-        //d
+        //ds
     }
 }
