@@ -39,6 +39,6 @@ class PembelianStok extends Migration
 
     public function down()
     {
-        //
+        $this->forge->dropTable('pembelian_stok');
     }
 }
