@@ -6,6 +6,10 @@ class Home extends BaseController
 {
     public function index()
     {
-        return view('welcome_message');
+        $isi = array(
+            'tittle' => 'Home',
+            'isi'   => 'v_register'
+        );
+        return view('layout/v_wrapper', $isi);
     }
 }
