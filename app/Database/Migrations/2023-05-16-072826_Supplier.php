@@ -38,6 +38,6 @@ class Supplier extends Migration
 
     public function down()
     {
-        //sSs
+        //
     }
 }
