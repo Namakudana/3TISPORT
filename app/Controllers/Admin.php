@@ -2,14 +2,14 @@
 
 namespace App\Controllers;
 
-class Home extends BaseController
+class Admin extends BaseController
 {
     public function index()
     {
-        $isi = array(
+        $data = array(
             'tittle' => 'Home',
             'isi'   => 'v_home'
         );
-        return view('layout/v_wrapper', $isi);
+        return view('layout/v_wrapper', $data);
     }
 }
