@@ -25,6 +25,7 @@ class Jenisbarang extends Migration
         $this->forge->createTable('jenis_barang'); 
     }
 
+    
     public function down()
     {
         
