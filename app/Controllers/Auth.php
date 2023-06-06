@@ -9,11 +9,11 @@ use App\Models\Model_Auth;
 class Auth extends BaseController
 {
 
-
+    public $Model_Auth="";
     public function __construct()
     {
         helper('form');
-        $this->Model_Auth = new Model_Auth();
+        $this->Model_Auth = new Model_Auth;
     }
 
     public function register()

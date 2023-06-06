@@ -8,7 +8,7 @@ class Home extends BaseController
     {
         $isi = array(
             'tittle' => 'Home',
-            'isi'   => 'v_admin'
+            'isi'   => 'v_login'
         );
         return view('layout/v_wrapper', $isi);
     }
