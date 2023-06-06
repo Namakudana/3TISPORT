@@ -10,6 +10,6 @@ class Web extends BaseController
             'title' => 'Halaman Web Zakat',
             'isi' => 'v_frontend',
         );
-        return view('v_web', $data);
+        return view('v_frontend');
     }
 }
